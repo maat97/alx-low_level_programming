@@ -1,2 +1,4 @@
 #!/bin/bash
-gcc -c $CFILE -o 'echo $CFILE | cut -d. -f1'.o
+CFILE=$1
+OUTPUT_FILE="${CFILE%.*}.o"
+gcc -c $CFILE -o $OUTPUT_FILE
