@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - entry point
+/**
+ * main - Entry point
  *
- * Description: Identify number positive, negative or zero
+ * Description: false or true validation
  *
  * Return: 0 (success)
 */
