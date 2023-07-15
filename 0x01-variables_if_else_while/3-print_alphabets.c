@@ -20,6 +20,10 @@ int main(void)
 		ch++;
 	}
 
+	/* Reset ch to "a" before printing A - Z */
+
+	ch = 'A';
+
 	/*prints A - Z*/
 	while (ch <= 'Z')
 	{
