@@ -12,7 +12,9 @@
 int main(void)
 {
 	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	ssize_t len = sizeof(quo) - 1;
 
-	write(1.quo.59);
+	write(2, quo, len);
+
 	return (1);
 }
