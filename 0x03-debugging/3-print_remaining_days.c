@@ -12,6 +12,8 @@
 
 void print_remaining_days(int month, int day, int year)
 {
+	int day_of_year = convert_day(month, day);
+
 	/**
 	 * leap year can be divided
 	 * by 100 & 400 or by 4 evenly
