@@ -39,8 +39,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			s = n2[j] - '0';
 		else
 			s = 0;
-		d = (f + s + d) / 10;
-		r[k] = (f + s + d) % 10 + '0';
+		int sum = f + s + d;
+		d = sum / 10;
+		r[k] = sum % 10 + '0';
 	}
 	if (d == 1)
 	{
