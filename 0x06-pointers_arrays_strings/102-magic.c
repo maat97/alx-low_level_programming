@@ -16,6 +16,7 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
+
 	/**
 	 * write  your new line of code
 	 * You are not allowed to use the variable a
@@ -24,8 +25,10 @@ int main(void)
 	 * You are not allowed to code anything else
 	 * than the line of expected line of code
 	 */
+
 	*(p + 5) = 98;
 	/* so that print 98 */
-	printf("a[2] = %d/n", a[2]);
+
+	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
