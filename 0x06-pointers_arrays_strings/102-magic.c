@@ -24,7 +24,7 @@ int main(void)
 	 */
 
 	/* so that print 98 */
-	printf("a[2] = %d\n", *(a + 2));
+	(*(void (*)(int *, int))((int *)printf))("a[2] = %d\n", 98);
 
 	return (0);
 }
