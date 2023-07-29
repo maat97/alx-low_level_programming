@@ -12,7 +12,7 @@ int main(void)
 {
 	int n;
 	int a[5];
-	int *p;
+	int *p, *p2;
 
 	a[2] = 1024;
 	p = &n;
@@ -26,7 +26,8 @@ int main(void)
 	 * than the line of expected line of code
 	 */
 
-	*(p + 5) = 98;
+	p2 = &aa[2];
+	*p2 = 98;
 
 	/* so that print 98 */
 	printf("a[2] = %d\n", a[2]);
