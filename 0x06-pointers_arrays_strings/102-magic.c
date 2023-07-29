@@ -25,7 +25,7 @@ int main(void)
 
 	/* so that print 98 */
 	
-	printf("a[2] = 98\n" + 1);
+	printf("a[2] = 98\n" + (2 * 4));
 
 	return (0);
 }
