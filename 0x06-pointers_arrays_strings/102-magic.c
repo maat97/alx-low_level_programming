@@ -2,7 +2,8 @@
 
 /**
  * main - Entry point
- * Description: program prints a[2] = 98, followed by a new line
+ * Description: program prints a[2] = 98
+ * followed by a new line
  * Return: 0 (Success)
  */
 
