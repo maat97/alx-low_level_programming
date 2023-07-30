@@ -7,7 +7,6 @@
  * @n2: second number
  * @r: result
  * @size_r: result length
- *
  * Return: sum
  */
 
@@ -40,6 +39,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		else
 			s = 0;
 		int sum = f + s + d;
+
 		d = sum / 10;
 		r[k] = sum % 10 + '0';
 	}
